@@ -1,0 +1,92 @@
+*{
+  box-sizing:border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Eczar', serif;
+  font-size: 5rem;
+}
+
+p,h2,table,#status {
+  text-align:center;
+  color: white;
+  width: 100%;
+  font-size:2rem;
+}
+
+body {
+    background-image: url("../img/retroBKGD.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Eczar', serif;
+}
+#rock, #paper, #scissors {
+  text-align: center;
+  border: .4rem solid yellow;
+  width: 33%;
+  font-family: 'Eczar', serif;
+  height: 4rem;
+  font-size: 2rem;
+  color: honeydew;
+  background-color: transparent;
+}
+table {
+  border: 2px solid yellow;
+  width: 60%;
+  margin-left: 20%;
+}
+
+div h2{
+  margin-bottom: -.5rem;
+}
+
+@media only screen and (min-width: 930px){
+  h1{
+    font-size:4rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  div h2 {
+    font-size: 2rem;
+  }
+  tbody,tfoot{
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
+}
+
+
+@media (max-width: 929px) and (min-width: 350px){
+  h1{
+    font-size:1.8rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  div h2 {
+    font-size: 2rem;
+  }
+  tbody,tfoot{
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  #rock, #paper, #scissors {
+    width: 100%;
+  }
+  table {
+    border: 2px solid yellow;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
