@@ -13,3 +13,6 @@ Optimizations would include the user abiity to remove already placed items as we
 # Lesson Learned:
 * various Javascript methods
 * the manipulation of DOM elements
+
+# Link
+https://fullstackabbs1.netlify.com
